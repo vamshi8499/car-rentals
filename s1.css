@@ -1,0 +1,75 @@
+body
+{
+
+justify-content:center;
+align-items:center;
+
+
+}
+p
+{
+position:relative;
+font-family:casteller;
+color:#fff;
+text-transform: uppercase;
+font-size:2em;
+letter-spacing:4px;
+overflow:hidden;
+background-repeat: 5;
+background-size:80%;
+
+
+}
+@keyframes animate
+{
+0%
+{
+background-position:-500%;
+}
+100%
+{
+background-position: 500%;
+}
+
+
+}
+.contact {
+    width: 100%;
+    text-align: center;
+    margin: 30% 0 0 0
+}
+.contact button{
+    font-size: 20px;
+    background: black;
+    color: #ffffff;
+    padding: 5px 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px black solid;
+    transform: transition 0.3s;
+    transition-duration: 700ms;
+    border: none;
+}
+.contact button:hover{
+    background: #ffffff;
+    color: black;
+}
+div.icons{
+    width: 100%;
+    text-align: center;
+}
+div.icons i{
+    font-size: 30px;
+    padding: 0 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transform: transition 0.3s;
+    transition-duration: 700ms;
+    border-radius: 50%;
+   color: #000000; 
+}
+div.icons i:hover{
+    transform: scale(1.3);
+    color: white;
+}
